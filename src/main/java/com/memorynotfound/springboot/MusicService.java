@@ -24,6 +24,7 @@ public class MusicService {
     @Cacheable(condition = "#instrument.equals('trombone')")
     // @Cacheable(value = "", key = "")
     public String play(String instrument) {
+        log.info("Ehcache branch test");
         log.info("Executing: " + this.getClass().getSimpleName() + ".play(\"" + instrument + "\");");
         return "paying " + instrument + "!";
     }
