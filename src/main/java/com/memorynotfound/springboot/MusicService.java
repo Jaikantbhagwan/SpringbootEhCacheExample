@@ -28,7 +28,7 @@ public class MusicService {
         log.info("Executing: " + this.getClass().getSimpleName() + ".play(\"" + instrument + "\");");
 
         log.info("Ehcache branch test for Akhilesh");
-        log.info("Ehcache branch test for Akhilesh1);
+        log.info("Ehcache branch test for Akhilesh1");
         for (int i = 0; i < 4; i++) {
             System.out.println(i);
         }
