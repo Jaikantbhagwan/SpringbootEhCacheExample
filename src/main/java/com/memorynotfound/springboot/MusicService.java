@@ -29,7 +29,7 @@ public class MusicService {
 
         log.info("Ehcache branch test for Akhilesh");
         log.info("Ehcache branch test for Akhilesh1");
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 7; i++) {
             System.out.println(i);
         }
         return "paying " + instrument + "!";
